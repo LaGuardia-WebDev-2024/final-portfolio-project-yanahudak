@@ -6,6 +6,24 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        background-color: rgb(150,193,197);
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+      }
+
+      .parent-flex img {
+        width: 300px;
+        padding: 10px;
+      }
+      .child-flex p {
+        background-color: rgb(255,240,222);
+        padding: 10px;
+        margin: 10px;
+        color: rgb(105, 74, 71);
+      }
     </style>
   </head>
   <body>
@@ -32,6 +50,34 @@
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
     <h1>Food Gallery</h1>
-    <img src ="https://media.tenor.com/-VTD0c9VFSEAAAAM/cronch-crunch.gif">
+    <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://media.tenor.com/-VTD0c9VFSEAAAAM/cronch-crunch.gif"
+        />
+      </div>
+      <div class="child-flex">
+        <p>
+         Welcome to the Food Gallery. <br>
+         Enjoy photos I've taken of food and drinks! <br>
+         please don't drool... thanks :)
+        </p>
+      </div>
+    </div>
+    <div class="parent-flex">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.1&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ_o6jvuUyf-cm0V5-NaD2L2dF_WjLWMYKz4uRjiyki8gU_DVozWT2sVLQCfOzZheeKtjY22mvuVmvkB3kA3hpdzsQaKG02whQ-WKPeMm2Nfy4viofNauGqj5uE&disp=emb&realattid=ii_mpmu3l480&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.2&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ-qxBG7PJNGXK4Ex1zzwmPArQf1M2O0-rFQTS4t_ss9hIMx_lr0WVXh_HU8iPYkCSNfEXP-hsyYYyLjR5StgIr8MXwRfAxu4WHayIW8eaMY-CCQyw_VbPaxZRQ&disp=emb&realattid=ii_mpmu4qyv1&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.3&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ9GTlvX0aDieysoF8fd3RJcfawxaIsDZTRUB2fbj7ox6slXH3F1wUCO4Q24Gr0N-BkHcSYGB_FG6o_6rPhF_wArt0txW-aCLGxJt_b8lvOdO-0rOWBo5Uvg8uo&disp=emb&realattid=ii_mpmu4ube2&zw">
+    </div>
+    <div class="parent-flex">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.4&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ9YtmY18gAFM7wfteM-wTv46330YJaG_EyIna5ZqYfyQRpGw6X38trwutAUbOpht6snAK12t3Ova79hXsTjB20pvUFNmlRZBypG7k9KK62VDbB7TtJ5utHPu7A&disp=emb&realattid=ii_mpmu976f3&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.5&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ8ZQ8YWJySj7ycP0AVwMX8J7ZWLsAJKR_cSZscYt_thaIpVYTOntc1h2Ig3visp9mTAOyRbkoYzXXT7LsMKHZAMeSUo__AY2J3-MA7-nqcyrRVFAh8jLouGkFE&disp=emb&realattid=ii_mpmu9ai74&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.6&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ-eoVpymgVSQrgClW6THxu2vfOPpRhWyYiDS8s7DIaBaOiQDObaO8CVT4buwPWYEaASUhabeZRWQmwdT_bUdDI6B55OFCD4FybqBdoSSjAAF-3MPFQJxh8xuXw&disp=emb&realattid=ii_mpmukqge5&zw">
+    </div>
+    <div class="parent-flex">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.7&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ_CLcMCLp4JQbe1qExWUuO7w9wGbhe7ulLVOC3WET1bBp3ywRnnYK2ujLo4NEWK_CluYsUht_rL6eVZp0Wtx6WiqhxX17z2irM_8Dv4gqHWUJzbkC4hXuOyAUs&disp=emb&realattid=ii_mpmuli0u6&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.9&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ_LgnFVF3pnIztN6umZl8YkvuQFmuHT7MVjxCiQtR3S6e8ISRLNEINkbmeYZziiMOwMCu8EP9qIltQNePrhExXK_54y2rpkazXMtMz9V9POdEOGfqIMqfN8SRI&disp=emb&realattid=ii_mpmumvi78&zw">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=5d5b55901c&attid=0.10&permmsgid=msg-a:r8372647153645580258&th=19e651ef5665e8ec&view=fimg&fur=ip&permmsgid=msg-a:r8372647153645580258&sz=s0-l75-ft&attbid=ANGjdJ8S2XibkE2omRbekiFNQUmLsYtJbDtnzEU1ZGESk_OSjLBhIWc7zwTorxuh9N0qnihgOEutS1CY0j_Jvdb-nxTufOQKNMAzZaIeP2BGOo_X2QXzWuXXbmiEoYw&disp=emb&realattid=ii_mpmup5ac9&zw">
+    </div>
   </body>
 </html>
